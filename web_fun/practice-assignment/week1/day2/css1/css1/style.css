@@ -1,0 +1,23 @@
+h1 {color: rgb(11, 240, 240);
+    background-color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: cursive; 
+
+}
+h2 {color: rgb(255, 255, 255);
+    background-color:indigo;
+    font-style:italic;
+    text-align: center;
+    font-family: cursive; 
+
+}
+h3 {color: rgb(0, 0, 0);
+    background-color: rgb(184, 233, 251);
+    text-align: right;
+    font-weight: light;
+    text-decoration: underline; 
+    font-family: cursive; 
+
+}
+.mywhite {color: white;}
