@@ -1,20 +1,90 @@
-body{
-    border: solid;
-    margin: 100px;
-  
-}
-.container1{
-    background-color:aqua;
-    display: flex;
-     
-     padding: 10px;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 
 }
-.container2{
-   background-color: grey;
-   display: flex;
-   justify-items: flex-start;
-   margin: 0px;
+
+.card {
+    width: 70%;
+    height: 275px;
+    border: solid  gainsboro;
+    border-top:  #17a2b8;
+    position: relative;
+    top: 100px;
+    left: 15%;
+    
    
-   
+    
+}
+#top {
+    height: 80px;
+    background-color:  #17a2b8;
+    align-items: center;
+    
+}
+.profile img {
+    width: 80px;
+    border-radius: 50% ;
+    border: solid 3px gainsboro;
+    position: relative;
+    bottom:40px;
+
+
+
+}
+h1 {
+    margin-top: 0%;
+    font-weight: 30px;
+    position: relative;
+    bottom:45px;
+} 
+.profile {
+    margin-left: 4%;
+    
+
+}
+
+
+.Localisation {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    position: relative;
+    bottom:40px
+
+}
+.Localisation img {
+    width: 10px;
+    margin-right: 1.5%;
+}
+
+.skills {
+    font-family: sans-serif;
+    margin-top: 0%;
+    margin-left: 4%;
+    position: relative;
+    bottom:35px
+
+}
+.edit {
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom:30px
+    
+    
+
+}
+a{
+    color: rgb(25, 156, 238);
+    text-decoration-line : underline;
+}
+.edit img {
+    width: 2%
+    
 }
