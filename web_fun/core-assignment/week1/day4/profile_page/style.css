@@ -99,7 +99,7 @@ h1 {
 
 }
 a{
-    color: white;
+    color: rgb(72, 207, 231);
     text-decoration-line : underline;
 
 }
@@ -183,4 +183,12 @@ button{
     border: solid  gainsboro;
    margin-left: 50%;
    margin-top: 0px;
+}
+
+
+.link{
+    border: solid;
+    border-color: gainsboro;
+    padding:  20px;
+    text-align: center;
 }
