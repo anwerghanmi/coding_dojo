@@ -126,7 +126,7 @@ button{
 }
 .topEducation {
     text-align: center;
-    background-color:   #17a2b8;
+    background-color:   gray;
     align-items: center;
     justify-content: center;
     height: 60px;
@@ -155,11 +155,12 @@ button{
     height: 35%;
     border: solid  gainsboro;
    margin-left: 50%;
+   margin-top: -435px;
   
 }
 .topconnection{
     text-align: center;
-    background-color:   #17a2b8;
+    background-color:   grey;
     align-items: center;
     justify-content: center;
     height: 60px;
@@ -175,4 +176,11 @@ button{
       align-items: center;
       justify-content: center;
       font-size: small;
+}
+#yourconnection{
+    width: 30%;
+    height: 35%;
+    border: solid  gainsboro;
+   margin-left: 50%;
+   margin-top: 0px;
 }
